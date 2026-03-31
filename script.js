@@ -7,18 +7,24 @@ const translations = {
     navResume: "简历",
     name: "陈星宇",
     role: "多模态内容理解、搜索与电商算法负责人",
+    profileSummary:
+      "研究与工程实践聚焦多模态内容理解、搜索相关性和电商智能系统，长期推动算法能力从研究走向真实业务效果。",
     metaCompany: "现任：字节跳动",
     metaFocus: "方向：内容理解 / Query 理解 / 图谱",
     metaLocation: "领域：短视频、直播与电商搜索",
+    contactTitle: "联系与主页",
+    emailLabel: "邮箱",
     openResume: "查看 PDF 简历",
     jumpHighlights: "核心亮点",
     noteTitle: "站点说明",
     noteBody: "本站基于个人简历整理，提供中英双语版本，并保留原始 PDF 供进一步查看。",
     aboutTitle: "关于我",
     aboutP1:
-      "陈星宇长期从事内容理解、搜索和电商智能相关工作，拥有从 0 到 1 构建算法系统、推动业务落地、并持续优化线上指标的经验。",
+      "陈星宇专注于内容理解、搜索和电商智能，具备从研究建模、系统搭建到业务落地的完整经验，长期推动算法能力转化为可量化的线上增长。",
     aboutP2:
-      "近年主要聚焦于抖音短视频与 TikTok 直播内容理解、搜索 Query 语义理解，以及电商知识图谱与多模态大模型应用。",
+      "近年的核心工作集中在抖音短视频与 TikTok 直播内容理解、搜索 Query 语义理解、电商知识图谱，以及多模态大模型在真实推荐和搜索场景中的应用。",
+    aboutP3:
+      "当前更关注如何把多模态感知、结构化知识和大模型能力稳定地接入内容分发、搜索承接和交易转化链路中。",
     highlightsTitle: "核心亮点",
     highlight1: "负责抖音短视频内容理解方向，推动优质内容供给与电商订单效率提升。",
     highlight2: "从 0 到 1 搭建 TikTok 直播内容理解体系，覆盖商品、类目、口播与高光片段识别。",
@@ -59,18 +65,24 @@ const translations = {
     navResume: "CV",
     name: "Xingyu Chen",
     role: "Lead in Multimodal Understanding, Search, and E-commerce AI",
+    profileSummary:
+      "Research and production work focus on multimodal content understanding, search relevance, and e-commerce intelligence systems, with sustained emphasis on turning modeling advances into measurable product impact.",
     metaCompany: "Current: ByteDance",
     metaFocus: "Focus: Content Understanding / Query Understanding / Knowledge Graph",
     metaLocation: "Domain: Short Video, Livestream, and E-commerce Search",
+    contactTitle: "Contact",
+    emailLabel: "Email",
     openResume: "Open PDF Resume",
     jumpHighlights: "Key Highlights",
     noteTitle: "About this site",
     noteBody: "This site is organized from the resume, presented bilingually, with the original PDF preserved for full reference.",
     aboutTitle: "About Me",
     aboutP1:
-      "Xingyu Chen has worked extensively on content understanding, search, and e-commerce intelligence, with experience building algorithm systems from zero to one and translating them into measurable production impact.",
+      "Xingyu Chen focuses on content understanding, search, and e-commerce intelligence, with end-to-end experience spanning modeling, system building, and large-scale production deployment.",
     aboutP2:
-      "Recent work has focused on Douyin short-video understanding, TikTok livestream understanding, search query semantic understanding, e-commerce knowledge graphs, and multimodal foundation-model applications.",
+      "Recent work centers on Douyin short-video understanding, TikTok livestream understanding, search query semantics, e-commerce knowledge graphs, and multimodal foundation-model applications in ranking and search.",
+    aboutP3:
+      "A current area of interest is how multimodal perception, structured knowledge, and foundation models can be integrated reliably into content distribution, search fulfillment, and transaction conversion pipelines.",
     highlightsTitle: "Highlights",
     highlight1: "Led short-video content understanding for Douyin and improved both high-quality supply and e-commerce order efficiency.",
     highlight2: "Built TikTok livestream understanding from scratch across product, category, speech-style, and highlight-segment tasks.",

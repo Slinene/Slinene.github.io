@@ -109,13 +109,10 @@ a {
   width: 92px;
   height: 92px;
   border-radius: 50%;
-  display: grid;
-  place-items: center;
-  font-size: 2rem;
-  font-weight: 700;
-  color: var(--accent);
-  background: radial-gradient(circle at top left, #ffffff, #dcecf8);
+  display: block;
+  object-fit: cover;
   border: 1px solid #d7e8f3;
+  box-shadow: 0 8px 20px rgba(26, 115, 183, 0.16);
 }
 
 h1,
@@ -145,6 +142,12 @@ h3 {
   font-weight: 600;
 }
 
+.profile-summary {
+  margin: 14px 0 0;
+  color: #3d3d3d;
+  line-height: 1.75;
+}
+
 .profile-meta {
   margin: 18px 0 0;
   padding-left: 18px;
@@ -172,6 +175,38 @@ h3 {
   padding-top: 18px;
   border-top: 1px solid var(--line);
   color: var(--muted);
+}
+
+.contact-block {
+  margin-top: 22px;
+  padding-top: 18px;
+  border-top: 1px solid var(--line);
+}
+
+.contact-title {
+  margin: 0 0 10px;
+  color: var(--text);
+  font-weight: 700;
+}
+
+.contact-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 12px;
+}
+
+.contact-list li {
+  display: grid;
+  gap: 4px;
+}
+
+.contact-label {
+  font-size: 0.86rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
 }
 
 .profile-note-title {
