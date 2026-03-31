@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>陈星宇 | 个人主页</title>
+    <meta
+      name="description"
+      content="陈星宇的中英双语个人主页，包含个人简介、工作经历、教育经历与完整简历。"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700&family=Source+Sans+3:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="topbar-inner">
+        <a class="site-title" href="#top">Xingyu Chen</a>
+        <nav class="topnav" aria-label="Primary">
+          <a href="#about" data-i18n="navAbout">关于我</a>
+          <a href="#experience" data-i18n="navExperience">工作经历</a>
+          <a href="#education" data-i18n="navEducation">教育经历</a>
+          <a href="#resume" data-i18n="navResume">简历</a>
+        </nav>
+        <button
+          id="language-toggle"
+          class="language-toggle"
+          type="button"
+          aria-label="Switch language"
+        >
+          EN
+        </button>
+      </div>
+    </header>
+
+    <main id="top" class="layout">
+      <aside class="sidebar">
+        <div class="profile-card">
+          <div class="avatar" aria-hidden="true">CX</div>
+          <h1 data-i18n="name">陈星宇</h1>
+          <p class="profile-role" data-i18n="role">
+            多模态内容理解、搜索与电商算法负责人
+          </p>
+          <ul class="profile-meta">
+            <li data-i18n="metaCompany">现任：字节跳动</li>
+            <li data-i18n="metaFocus">方向：内容理解 / Query 理解 / 图谱</li>
+            <li data-i18n="metaLocation">领域：短视频、直播与电商搜索</li>
+          </ul>
+
+          <div class="profile-links">
+            <a href="./assets/resume.pdf" target="_blank" rel="noreferrer" data-i18n="openResume">
+              查看 PDF 简历
+            </a>
+            <a href="#highlights" data-i18n="jumpHighlights">核心亮点</a>
+          </div>
+
+          <div class="profile-note">
+            <p class="profile-note-title" data-i18n="noteTitle">站点说明</p>
+            <p data-i18n="noteBody">
+              本站基于个人简历整理，提供中英双语版本，并保留原始 PDF 供进一步查看。
+            </p>
+          </div>
+        </div>
+      </aside>
+
+      <section class="content">
+        <section id="about" class="section">
+          <h2 data-i18n="aboutTitle">About Me</h2>
+          <p data-i18n="aboutP1">
+            陈星宇长期从事内容理解、搜索和电商智能相关工作，拥有从 0 到 1 构建算法系统、推动业务落地、并持续优化线上指标的经验。
+          </p>
+          <p data-i18n="aboutP2">
+            近年主要聚焦于抖音短视频与 TikTok 直播内容理解、搜索 Query 语义理解，以及电商知识图谱与多模态大模型应用。
+          </p>
+        </section>
+
+        <section id="highlights" class="section">
+          <h2 data-i18n="highlightsTitle">Highlights</h2>
+          <ul class="bullet-list">
+            <li data-i18n="highlight1">
+              负责抖音短视频内容理解方向，推动优质内容供给与电商订单效率提升。
+            </li>
+            <li data-i18n="highlight2">
+              从 0 到 1 搭建 TikTok 直播内容理解体系，覆盖商品、类目、口播与高光片段识别。
+            </li>
+            <li data-i18n="highlight3">
+              负责 TikTok Query 理解方向，建设品牌、品类和属性识别能力，支撑搜索相关性。
+            </li>
+            <li data-i18n="highlight4">
+              在腾讯阶段搭建商品识别与多模态检索体系，并参与微信刷脸支付核心算法建设。
+            </li>
+          </ul>
+        </section>
+
+        <section id="experience" class="section">
+          <h2 data-i18n="experienceTitle">Experience</h2>
+
+          <article class="entry">
+            <div class="entry-head">
+              <h3 data-i18n="exp1Company">字节跳动</h3>
+              <span data-i18n="exp1Date">2022.10 - 至今</span>
+            </div>
+            <p class="entry-role" data-i18n="exp1Role">电商知识图谱 / 内容理解方向负责人</p>
+            <ul class="bullet-list">
+              <li data-i18n="exp1Bullet1">
+                负责抖音短视频内容理解方向，利用多模态算法识别视频电商意图，提升供给质量与交易效率。
+              </li>
+              <li data-i18n="exp1Bullet2">
+                主导 TikTok 直播内容理解能力建设，覆盖商品识别、类目预测、口播识别和高光切片等任务。
+              </li>
+              <li data-i18n="exp1Bullet3">
+                建设 TikTok Query 理解系统，通过 NER、MRC 和多语言预训练模型识别品牌、品类与属性信息。
+              </li>
+              <li data-i18n="exp1Bullet4">
+                作为电商图谱与搜索方向 POC，推动相关算法在搜索相关、供给与承接场景中的落地。
+              </li>
+            </ul>
+          </article>
+
+          <article class="entry">
+            <div class="entry-head">
+              <h3 data-i18n="exp2Company">腾讯科技（上海）有限公司</h3>
+              <span data-i18n="exp2Date">2018.04 - 2022.10</span>
+            </div>
+            <p class="entry-role" data-i18n="exp2Role">商品识别负责人 / 微信刷脸支付子方向负责人</p>
+            <ul class="bullet-list">
+              <li data-i18n="exp2Bullet1">
+                从 0 到 1 搭建商品识别能力，包括商品主体检测、检索、属性分析与商品资产建设。
+              </li>
+              <li data-i18n="exp2Bullet2">
+                设计大规模图文检索方案，建设覆盖 80+ 类目与百万级商品的多模态商品底库。
+              </li>
+              <li data-i18n="exp2Bullet3">
+                负责微信刷脸支付相关人脸质量评估方向，优化识别质量、低质量样本过滤和资损控制。
+              </li>
+            </ul>
+          </article>
+        </section>
+
+        <section id="education" class="section">
+          <h2 data-i18n="educationTitle">Education</h2>
+
+          <article class="entry">
+            <div class="entry-head">
+              <h3 data-i18n="edu1School">上海交通大学</h3>
+              <span>2016.09 - 2019.03</span>
+            </div>
+            <p class="entry-role" data-i18n="edu1Degree">
+              硕士，电子信息与电气工程学院 / 自动化与感知学院
+            </p>
+            <p data-i18n="edu1Desc">
+              专业前 10%，获国家奖学金、校二等奖学金，并获评上海市优秀毕业生。
+            </p>
+          </article>
+
+          <article class="entry">
+            <div class="entry-head">
+              <h3 data-i18n="edu2School">西安交通大学</h3>
+              <span>2012.09 - 2016.06</span>
+            </div>
+            <p class="entry-role" data-i18n="edu2Degree">
+              本科，机械工程学院，测控技术与仪器
+            </p>
+            <p data-i18n="edu2Desc">
+              专业前 10%，获国家励志奖学金，并获评优秀毕业生干部。
+            </p>
+          </article>
+        </section>
+
+        <section id="resume" class="section">
+          <h2 data-i18n="resumeTitle">CV</h2>
+          <p data-i18n="resumeText">
+            页面内容根据简历进行了网页化整理。如果你希望查看原始版本，可以直接打开或下载 PDF。
+          </p>
+          <div class="actions">
+            <a class="button primary" href="./assets/resume.pdf" target="_blank" rel="noreferrer" data-i18n="openResume">
+              查看 PDF 简历
+            </a>
+            <a class="button" href="./assets/resume.pdf" download data-i18n="downloadResume">
+              下载简历
+            </a>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
