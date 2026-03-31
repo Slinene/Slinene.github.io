@@ -51,17 +51,6 @@ const translations = {
     edu2School: "西安交通大学",
     edu2Degree: "本科，机械工程学院，测控技术与仪器",
     edu2Desc: "专业前 10%，获国家励志奖学金，并获评优秀毕业生干部。",
-    publicationsTitle: "论文与代表工作",
-    viewScholar: "查看 Google Scholar",
-    publicationsIntro:
-      "这里以学术主页常见的论文区块形式展示研究输出入口。完整论文列表、引用和更新请查看 Google Scholar 页面。",
-    pubTag1: "Scholar Profile",
-    pubTitle1: "Google Scholar Publications",
-    pubBody1:
-      "查看完整论文列表、引用次数与最新研究成果。该页面可作为本站论文区块的主索引入口。",
-    openScholarProfile: "打开 Scholar Profile",
-    publicationsNote:
-      "如果你希望，我可以下一步继续把这个区块扩展成标准论文列表样式，包含作者、会议/期刊、年份和链接。",
     resumeTitle: "简历",
     resumeText: "页面内容根据简历进行了网页化整理。如果你希望查看原始版本，可以直接打开或下载 PDF。",
     downloadResume: "下载简历",
@@ -120,17 +109,6 @@ const translations = {
     edu2School: "Xi'an Jiaotong University",
     edu2Degree: "B.S., Measurement and Control Technology and Instrumentation",
     edu2Desc: "Top 10% in major, National Encouragement Scholarship, Outstanding Student Cadre.",
-    publicationsTitle: "Publications / Selected Work",
-    viewScholar: "View Google Scholar",
-    publicationsIntro:
-      "This section adopts the publication style commonly used on academic homepages. For the full publication list, citations, and updates, please refer to the Google Scholar profile.",
-    pubTag1: "Scholar Profile",
-    pubTitle1: "Google Scholar Publications",
-    pubBody1:
-      "See the complete list of publications, citation counts, and recent research outputs. This profile serves as the primary index for the publication section of this site.",
-    openScholarProfile: "Open Scholar Profile",
-    publicationsNote:
-      "If you want, this section can be expanded next into a full publication list with authors, venue, year, and links.",
     resumeTitle: "CV",
     resumeText: "The content on this page is a web-adapted version of the resume. The original PDF remains available for direct viewing or download.",
     downloadResume: "Download Resume",
