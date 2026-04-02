@@ -10,10 +10,10 @@ const translations = {
     name: "陈星宇",
     role: "抖音内容理解 / TikTok 电商搜索与生成式搜推",
     profileSummary:
-      "聚焦多模态大模型、Post-Training、强化学习和生成式搜推，当前在字节重点负责抖音内容理解，以及 TikTok 电商搜索、直播理解和生成式召回相关工作。",
+      "聚焦多模态大模型、Post-Training、强化学习和生成式搜推，当前聚焦LLM/VLM大模型、Post-Training、强化学习和生成式搜推。负责电商直播和短视频内容理解，以及电商搜索Query理解、和生成式召回相关工作。在字节重点负责抖音内容理解，以及 TikTok 电商搜索、直播理解和生成式召回相关工作。",
     metaCompany: "现任：ByteDance",
-    metaFocus: "方向：电商搜索 / 内容理解 / 生成式搜推",
-    metaLocation: "领域：短视频、直播与电商交易场景",
+    metaFocus: "方向：电商搜索 / 内容理解 / 生成式推荐",
+    metaLocation: "领域：短视频、直播与电商搜索交易场景",
     contactTitle: "联系与主页",
     emailLabel: "邮箱",
     openResume: "查看 PDF 简历",
@@ -28,7 +28,7 @@ const translations = {
     experienceTitle: "工作经历",
     exp1Company: "字节跳动",
     exp1Date: "2022.11 - 至今",
-    exp1Role: "抖音内容理解 / TikTok 电商搜索与生成式搜推方向负责人",
+    exp1Role: "内容理解 / 电商搜索 / 生成式搜推负责人",
     exp1Sub1Title: "抖音",
     exp1Sub2Title: "TikTok",
     exp1DouyinBullet1:
@@ -40,12 +40,12 @@ const translations = {
     exp1TiktokBullet2:
       "从 0 到 1 搭建直播内容理解，包括直播商品识别、类目识别、画风理解与高光切片生成，通过引入 LLaVA、VideoChat 等多模态大模型将主播 pin 商品覆盖率从 67% 提升到 95%，算法准确率达到 85%，最终带来直播 GMV +2%，badcase 减少 15%。",
     exp1TiktokBullet3:
-      "建设基于大模型的商品 SEO 词识别与生成式搜推能力，通过 Agent 热词挖掘、Embedding 召回、InternVL-8B 排序，以及 Embedding / Semantic ID / LLM 召回迭代，带来搜索 PV +91%，缺货 Query 占比从 3.8% 降至 1.9%，并在图搜与兴趣推荐场景超过线上主召回链路。",
+      "负责生成式搜推能力建设，涵盖 Embedding、Semantic ID 与生成式推荐。基于多模态embedding齐、Semantic ID 构建及生成式召回模型优化，完成三阶段训练范式落地，在图搜、兴趣推荐等场景效果超过线上主召回链路。",
     exp2Company: "腾讯科技（上海）有限公司",
     exp2Date: "2018.04 - 2022.10",
     exp2Role: "商品识别与视觉算法相关工作",
     exp2Summary:
-      "主要从事商品识别、商品检索、人脸质量评估与开放场景检测识别等方向，完成商品底库、图文检索与视觉质量评估能力建设，为后续在电商搜索与多模态系统方向的工作奠定了基础。",
+      "主要从事人脸识别、人脸质量评估、商品检索、与开放场景检测识别等方向，为小鹅拼拼完成商品底库、图文检索与视觉质量评估能力建设，为后续在电商搜索与多模态系统方向的工作奠定了基础。",
     educationTitle: "教育经历",
     edu1School: "上海交通大学",
     edu1Degree: "硕士，电子信息与电气工程学院 / 自动化与感知学院",
