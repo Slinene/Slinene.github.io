@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>陈星宇 | Publications</title>
+    <meta
+      name="description"
+      content="陈星宇的论文与发表页面，采用 Google Scholar 风格列表展示。"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700&family=Source+Sans+3:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="topbar-inner">
+        <a class="site-title" href="./index.html">Xingyu Chen</a>
+        <nav class="topnav" aria-label="Primary">
+          <a class="nav-link" href="./index.html" data-i18n="navResumeHome">个人简历</a>
+          <a class="nav-link active" href="./publications.html" data-i18n="navPublications">Publications</a>
+        </nav>
+        <button
+          id="language-toggle"
+          class="language-toggle"
+          type="button"
+          aria-label="Switch language"
+        >
+          EN
+        </button>
+      </div>
+    </header>
+
+    <main class="publications-layout">
+      <section class="section publication-page">
+        <div class="publication-page-head">
+          <div>
+            <h1 class="publication-page-title" data-i18n="publicationsPageTitle">Publications</h1>
+          </div>
+          <a
+            class="button"
+            href="https://scholar.google.com/citations?hl=en&user=9ACFRggAAAAJ"
+            target="_blank"
+            rel="noreferrer"
+            data-i18n="openScholarProfile"
+          >
+            打开 Scholar Profile
+          </a>
+        </div>
+
+        <div id="publications-list" class="scholar-list"></div>
+      </section>
+    </main>
+
+    <script src="./publications-data.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>

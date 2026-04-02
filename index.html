@@ -21,10 +21,8 @@
       <div class="topbar-inner">
         <a class="site-title" href="#top">Xingyu Chen</a>
         <nav class="topnav" aria-label="Primary">
-          <a href="#about" data-i18n="navAbout">关于我</a>
-          <a href="#experience" data-i18n="navExperience">工作经历</a>
-          <a href="#education" data-i18n="navEducation">教育经历</a>
-          <a href="#resume" data-i18n="navResume">简历</a>
+          <a class="nav-link active" href="./index.html" data-i18n="navResumeHome">个人简历</a>
+          <a class="nav-link" href="./publications.html" data-i18n="navPublications">Publications</a>
         </nav>
         <button
           id="language-toggle"
@@ -47,15 +45,15 @@
           />
           <h1 data-i18n="name">陈星宇</h1>
           <p class="profile-role" data-i18n="role">
-            TikTok电商-知识图谱-高级研究员
+            抖音内容理解 / TikTok 电商搜索与生成式搜推
           </p>
           <p class="profile-summary" data-i18n="profileSummary">
-            研究与工程实践聚焦LLM/VLM在电商场景下的后训练和RL，负责Query理解/内容理解，生成式召回等。
+            聚焦多模态大模型、Post-Training、强化学习和生成式搜推，当前在字节重点负责抖音内容理解，以及 TikTok 电商搜索、直播理解和生成式召回相关工作。
           </p>
           <ul class="profile-meta">
             <li data-i18n="metaCompany">现任：ByteDance</li>
-            <li data-i18n="metaFocus">方向：内容理解 / Query 理解 / 大模型搜推应用</li>
-            <li data-i18n="metaLocation">领域：短视频、直播与电商搜索</li>
+            <li data-i18n="metaFocus">方向：电商搜索 / 内容理解 / 生成式搜推</li>
+            <li data-i18n="metaLocation">领域：短视频、直播与电商交易场景</li>
           </ul>
 
           <div class="contact-block">
@@ -88,14 +86,7 @@
             <a href="./assets/resume.pdf" target="_blank" rel="noreferrer" data-i18n="openResume">
               查看 PDF 简历
             </a>
-            <a href="#highlights" data-i18n="jumpHighlights">核心亮点</a>
-          </div>
-
-          <div class="profile-note">
-            <p class="profile-note-title" data-i18n="noteTitle">站点说明</p>
-            <p data-i18n="noteBody">
-              本站基于个人简历整理，提供中英双语版本，并保留原始 PDF 供进一步查看。
-            </p>
+            <a href="#experience" data-i18n="jumpExperience">工作经历</a>
           </div>
         </div>
       </aside>
@@ -104,32 +95,14 @@
         <section id="about" class="section">
           <h2 data-i18n="aboutTitle">About Me</h2>
           <p data-i18n="aboutP1">
-            陈星宇专注于内容理解、搜索和电商智能，具备从研究建模、系统搭建到业务落地的完整经验，长期推动算法能力转化为可量化的线上增长。
+            长期从事搜索推荐、内容理解和多模态学习，在短视频、电商与支付场景积累了从研究建模、系统建设到大规模落地的完整经验。
           </p>
           <p data-i18n="aboutP2">
-            近年的核心工作集中在抖音短视频与 TikTok 直播内容理解、搜索 Query 语义理解、电商知识图谱，以及多模态大模型在真实推荐和搜索场景中的应用。
+            在字节的工作主要分成两条主线：一条是抖音侧的短视频内容理解，重点解决视频电商意图识别和优质供给挖掘；另一条是 TikTok 侧的电商搜索与直播理解，围绕 Query 理解、直播内容理解、商品 SEO 和生成式召回持续推进业务落地。
           </p>
           <p data-i18n="aboutP3">
-            当前更关注如何把多模态感知、结构化知识和大模型能力稳定地接入内容分发、搜索承接和交易转化链路中。
+            在加入字节之前，曾在腾讯从事商品识别、人脸质量评估和开放场景检测识别相关工作，形成了较完整的视觉算法与业务落地方法论。
           </p>
-        </section>
-
-        <section id="highlights" class="section">
-          <h2 data-i18n="highlightsTitle">Highlights</h2>
-          <ul class="bullet-list">
-            <li data-i18n="highlight1">
-              负责抖音短视频内容理解方向，推动优质内容供给与电商订单效率提升。
-            </li>
-            <li data-i18n="highlight2">
-              从 0 到 1 搭建 TikTok 直播内容理解体系，覆盖商品、类目、口播与高光片段识别。
-            </li>
-            <li data-i18n="highlight3">
-              负责 TikTok Query 理解方向，建设品牌、品类和属性识别能力，支撑搜索相关性。
-            </li>
-            <li data-i18n="highlight4">
-              在腾讯阶段搭建商品识别与多模态检索体系，并参与微信刷脸支付核心算法建设。
-            </li>
-          </ul>
         </section>
 
         <section id="experience" class="section">
@@ -138,23 +111,36 @@
           <article class="entry">
             <div class="entry-head">
               <h3 data-i18n="exp1Company">字节跳动</h3>
-              <span data-i18n="exp1Date">2022.10 - 至今</span>
+              <span data-i18n="exp1Date">2022.11 - 至今</span>
             </div>
-            <p class="entry-role" data-i18n="exp1Role">电商知识图谱 / 内容理解方向负责人</p>
-            <ul class="bullet-list">
-              <li data-i18n="exp1Bullet1">
-                负责抖音短视频内容理解方向，利用多模态算法识别视频电商意图，持续提升高质量内容供给与交易效率。
-              </li>
-              <li data-i18n="exp1Bullet2">
-                主导 TikTok 直播内容理解能力建设，覆盖商品识别、类目预测、口播识别和高光切片等关键任务。
-              </li>
-              <li data-i18n="exp1Bullet3">
-                建设 TikTok Query 理解系统，通过 NER、MRC 和多语言预训练模型识别品牌、品类与属性等结构化信息。
-              </li>
-              <li data-i18n="exp1Bullet4">
-                作为电商图谱与搜索方向 POC，推动相关算法在搜索相关性、供给优化与承接场景中的稳定落地。
-              </li>
-            </ul>
+            <p class="entry-role" data-i18n="exp1Role">抖音内容理解 / TikTok 电商搜索与生成式搜推方向负责人</p>
+
+            <div class="subentry">
+              <h4 class="subentry-title" data-i18n="exp1Sub1Title">抖音</h4>
+              <ul class="bullet-list">
+                <li data-i18n="exp1DouyinBullet1">
+                  负责抖音短视频内容理解方向，通过 VideoCLIP、自研 VersatileTowers 等多模态算法建模视频电商意图识别，为非挂车视频挖掘增量流量，并带来抖音电商大盘人均订单提升 6%。
+                </li>
+                <li data-i18n="exp1DouyinBullet2">
+                  围绕优质内容与高潜作者识别建设供给评估能力，持续增强内容分发、供给优化与交易转化之间的协同效率。
+                </li>
+              </ul>
+            </div>
+
+            <div class="subentry">
+              <h4 class="subentry-title" data-i18n="exp1Sub2Title">TikTok</h4>
+              <ul class="bullet-list">
+                <li data-i18n="exp1TiktokBullet1">
+                  作为搜索供给、增长与承接模块的横向 POC，建设 Query 理解能力，通过 BERT + Multi-Agent RAG 近线部署识别品牌、品类、属性等结构化信息，平均准召回 90% / 85%，推动 OPMS +5%，相关性从 93.2% 提升到 97%。
+                </li>
+                <li data-i18n="exp1TiktokBullet2">
+                  从 0 到 1 搭建直播内容理解，包括直播商品识别、类目识别、画风理解与高光切片生成，通过引入 LLaVA、VideoChat 等多模态大模型将主播 pin 商品覆盖率从 67% 提升到 95%，算法准确率达到 85%，最终带来直播 GMV +2%，badcase 减少 15%。
+                </li>
+                <li data-i18n="exp1TiktokBullet3">
+                  建设基于大模型的商品 SEO 词识别与生成式搜推能力，通过 Agent 热词挖掘、Embedding 召回、InternVL-8B 排序，以及 Embedding / Semantic ID / LLM 召回迭代，带来搜索 PV +91%，缺货 Query 占比从 3.8% 降至 1.9%，并在图搜与兴趣推荐场景超过线上主召回链路。
+                </li>
+              </ul>
+            </div>
           </article>
 
           <article class="entry">
@@ -162,18 +148,10 @@
               <h3 data-i18n="exp2Company">腾讯科技（上海）有限公司</h3>
               <span data-i18n="exp2Date">2018.04 - 2022.10</span>
             </div>
-            <p class="entry-role" data-i18n="exp2Role">商品识别负责人 / 微信刷脸支付子方向负责人</p>
-            <ul class="bullet-list">
-              <li data-i18n="exp2Bullet1">
-                从 0 到 1 搭建商品识别能力，包括商品主体检测、检索、属性分析与商品资产建设。
-              </li>
-              <li data-i18n="exp2Bullet2">
-                设计大规模图文检索方案，建设覆盖 80+ 类目与百万级商品的多模态商品底库。
-              </li>
-              <li data-i18n="exp2Bullet3">
-                负责微信刷脸支付相关人脸质量评估方向，优化识别质量、低质量样本过滤和资损控制。
-              </li>
-            </ul>
+            <p class="entry-role" data-i18n="exp2Role">商品识别与视觉算法相关工作</p>
+            <p class="entry-summary" data-i18n="exp2Summary">
+              主要从事商品识别、商品检索、人脸质量评估与开放场景检测识别等方向，完成商品底库、图文检索与视觉质量评估能力建设，为后续在电商搜索与多模态系统方向的工作奠定了基础。
+            </p>
           </article>
         </section>
 
@@ -189,7 +167,7 @@
               硕士，电子信息与电气工程学院 / 自动化与感知学院
             </p>
             <p data-i18n="edu1Desc">
-              专业前 10%，获国家奖学金、校二等奖学金，并获评上海市优秀毕业生。
+              专业前 15%，获国家奖学金、校三好学生，并获评上海市优秀毕业生。
             </p>
           </article>
 
@@ -202,9 +180,34 @@
               本科，机械工程学院，测控技术与仪器
             </p>
             <p data-i18n="edu2Desc">
-              专业前 10%，获国家励志奖学金，并获评优秀毕业生干部。
+              专业前 10%，获国家奖学金、国家励志奖学金，并获评优秀毕业生干部。
             </p>
           </article>
+        </section>
+
+        <section id="honors" class="section">
+          <h2 data-i18n="honorsTitle">Honors</h2>
+          <ul class="bullet-list">
+            <li data-i18n="honor1">
+              CVPR 2021 Image Matching Workshop 冠军
+            </li>
+            <li data-i18n="honor2">
+              CVPR 2022 Image Matching Workshop Top 1%
+            </li>
+            <li data-i18n="honor3">
+              CVPR 2022 AliProduct 多模态商品检索 Top 1%
+            </li>
+            <li data-i18n="honor4">
+              NeurIPS 2021 Image Similarity Challenge 季军
+            </li>
+            <li>
+              <span data-i18n="honor5Label">开源贡献：</span>
+              <a href="https://github.com/Tencent/TFace" target="_blank" rel="noreferrer">
+                Tencent/TFace
+              </a>
+              <span data-i18n="honor5Suffix">，1.5k+ GitHub Stars</span>
+            </li>
+          </ul>
         </section>
 
         <section id="resume" class="section">
