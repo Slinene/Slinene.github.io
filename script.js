@@ -67,72 +67,72 @@ const translations = {
     lang: "zh-CN"
   },
   en: {
-    pageTitle: "Xingyu Chen | Homepage",
-    publicationsPageTitle: "Publications",
-    publicationsPageSubtitle:
-      "A Google Scholar style list of papers, authors, venue information, and external links.",
-    publicationsToolbar: "The publication list can be edited directly in publications-data.js.",
-    navResumeHome: "Resume",
-    navPublications: "Publications",
-    name: "Xingyu Chen",
-    role: "Douyin Content Understanding / TikTok E-commerce Search and Generative Retrieval",
-    profileSummary:
-      "Focused on multimodal foundation models, post-training, reinforcement learning, and generative retrieval, with current work at ByteDance centered on Douyin content understanding as well as TikTok e-commerce search, livestream understanding, and generative recall.",
-    metaCompany: "Current: ByteDance",
-    metaFocus: "Focus: E-commerce Search / Content Understanding / Generative Retrieval",
-    metaLocation: "Domain: Short Video, Livestream, and Commerce Transactions",
-    contactTitle: "Contact",
-    emailLabel: "Email",
-    openResume: "Open PDF Resume",
-    jumpExperience: "Experience",
-    aboutTitle: "About Me",
-    aboutP1:
-      "Focused on search, recommendation, content understanding, and multimodal learning, with end-to-end experience from research modeling to large-scale production deployment across short video, commerce, and payment scenarios.",
-    aboutP2:
-      "Work at ByteDance centers on two main tracks: on the Douyin side, short-video content understanding and commerce-intent mining; on the TikTok side, e-commerce search and livestream understanding, including query understanding, product SEO, and generative retrieval.",
-    aboutP3:
-      "Before ByteDance, work at Tencent covered product recognition, face-quality assessment, and open-world detection, forming a solid foundation for later multimodal system development.",
-    experienceTitle: "Experience",
-    exp1Company: "ByteDance",
-    exp1Date: "Nov 2022 - Present",
-    exp1Role: "Lead, Douyin Content Understanding / TikTok E-commerce Search and Generative Retrieval",
-    exp1Sub1Title: "Douyin",
-    exp1Sub2Title: "TikTok",
-    exp1DouyinBullet1:
-      "Led short-video commerce-intent understanding with multimodal models including VideoCLIP and an in-house VersatileTowers framework, unlocking incremental traffic from non-cart videos and increasing orders per user by 6%.",
-    exp1DouyinBullet2:
-      "Built supply-assessment capabilities around high-quality content and high-potential creator identification, strengthening the connection between content distribution, supply optimization, and commerce conversion.",
-    exp1TiktokBullet1:
-      "Served as the cross-functional POC for search supply, growth, and fulfillment. Built query understanding with BERT plus nearline multi-agent RAG to extract brands, categories, and attributes, achieving 90% / 85% precision-recall, OPMS +5%, and relevance improvement from 93.2% to 97%.",
-    exp1TiktokBullet2:
-      "Built livestream understanding from zero to one across product recognition, category understanding, visual-style understanding, and highlight generation. With LLaVA and VideoChat style multimodal models, improved pinned-product signal coverage from 67% to 95%, reached 85% accuracy, lifted livestream GMV by 2%, and reduced bad cases by 15%.",
-    exp1TiktokBullet3:
-      "Built LLM-based product SEO term mining and generative retrieval systems through agent-driven hotword discovery, embedding recall, InternVL-8B ranking, and iterative embedding / Semantic ID / LLM retrieval. This increased search PV by 91%, reduced out-of-stock query share from 3.8% to 1.9%, and outperformed the online primary recall pipeline in image search and interest recommendation.",
-    exp2Company: "Tencent Technology (Shanghai)",
-    exp2Date: "Apr 2018 - Oct 2022",
-    exp2Role: "Product Recognition and Vision Systems",
-    exp2Summary:
-      "Worked on product recognition, retrieval, face-quality assessment, and open-world detection, building production capabilities in product bases, image-text retrieval, and visual quality evaluation before shifting focus to commerce search and multimodal systems.",
-    educationTitle: "Education",
-    edu1School: "Shanghai Jiao Tong University",
-    edu1Degree: "M.S., School of Electronic Information and Electrical Engineering",
-    edu1Desc: "Top 15% in major, National Scholarship, University Merit Student, Outstanding Graduate of Shanghai.",
-    edu2School: "Xi'an Jiaotong University",
-    edu2Degree: "B.S., Measurement and Control Technology and Instrumentation",
-    edu2Desc: "Top 10% in major, National Scholarship, National Encouragement Scholarship, Outstanding Student Cadre.",
-    honorsTitle: "Honors",
-    honor1: "Champion, CVPR 2021 Image Matching Workshop",
-    honor2: "Top 1%, CVPR 2022 Image Matching Workshop",
-    honor3: "Top 1%, CVPR 2022 AliProduct Multimodal Product Retrieval",
-    honor4: "Third Place, NeurIPS 2021 Image Similarity Challenge",
-    honor5Label: "Open-source contribution: ",
-    honor5Suffix: " with 1.5k+ GitHub stars",
-    resumeTitle: "CV",
-    downloadResume: "Download Resume",
-    publicationEmpty: "Please add publication entries in publications-data.js.",
-    toggle: "中文",
-    lang: "en"
-  }
+  pageTitle: "Xingyu Chen | Homepage",
+  publicationsPageTitle: "Publications",
+  publicationsPageSubtitle:
+    "A Google Scholar style list of papers, authors, venue information, and external links.",
+  publicationsToolbar: "The publication list can be edited directly in publications-data.js.",
+  navResumeHome: "Resume",
+  navPublications: "Publications",
+  name: "Xingyu Chen",
+  role: "Douyin Content Understanding / TikTok E-commerce Search & Generative Recommendation",
+  profileSummary:
+    "Specialized in multimodal foundation models, post-training, reinforcement learning, and generative search and recommendation. Currently leading key initiatives in Douyin content understanding, as well as TikTok e-commerce search, livestream understanding, and generative retrieval at ByteDance.",
+  metaCompany: "Current: ByteDance",
+  metaFocus: "Focus: E-commerce Search / Content Understanding / Generative Recommendation",
+  metaLocation: "Domain: Short Video, Livestream, and E-commerce",
+  contactTitle: "Contact",
+  emailLabel: "Email",
+  openResume: "Open PDF Resume",
+  jumpExperience: "Experience",
+  aboutTitle: "About Me",
+  aboutP1:
+    "Experienced in search and recommendation, content understanding, and multimodal learning, with end-to-end expertise spanning research, modeling, system development, and large-scale production deployment across short-video, e-commerce, and payment scenarios.",
+  aboutP2:
+    "At ByteDance, my work focuses on two major areas. On Douyin, I work on short-video content understanding, with an emphasis on commerce-intent recognition and high-quality supply mining. On TikTok, I focus on e-commerce search and livestream understanding, including query understanding, livestream content understanding, product SEO, and generative retrieval.",
+  aboutP3:
+    "Prior to ByteDance, I worked at Tencent on product recognition, face-quality assessment, and open-world detection and recognition, which helped me build a strong foundation in computer vision algorithms and large-scale productization.",
+  experienceTitle: "Experience",
+  exp1Company: "ByteDance",
+  exp1Date: "Nov 2022 - Present",
+  exp1Role: "Lead, Content Understanding / E-commerce Search / Generative Recommendation",
+  exp1Sub1Title: "Douyin",
+  exp1Sub2Title: "TikTok",
+  exp1DouyinBullet1:
+    "Led short-video content understanding for Douyin. Built multimodal models for commerce-intent recognition using VideoCLIP and in-house VersatileTowers, unlocking incremental traffic from non-cart videos and increasing orders per user in Douyin E-commerce by 6%.",
+  exp1DouyinBullet2:
+    "Built supply evaluation capabilities centered on high-quality content and high-potential creator identification, improving collaboration across content distribution, supply optimization, and transaction conversion.",
+  exp1TiktokBullet1:
+    "Served as the cross-functional POC for search supply, growth, and fulfillment. Built query understanding capabilities with BERT and nearline Multi-Agent RAG to extract structured signals such as brand, category, and attribute information, achieving average precision/recall of 90%/85%, driving OPMS +5%, and improving relevance from 93.2% to 97%.",
+  exp1TiktokBullet2:
+    "Built livestream understanding from 0 to 1, covering product recognition, category recognition, style understanding, and highlight clip generation. By introducing multimodal foundation models such as LLaVA and VideoChat, improved pinned-product coverage from 67% to 95%, achieved 85% model accuracy, increased livestream GMV by 2%, and reduced bad cases by 15%.",
+  exp1TiktokBullet3:
+    "Led the development of generative search and recommendation capabilities across Embedding, Semantic ID, and generative recommendation. Improved multimodal alignment embeddings through user posterior signals, Semantic ID construction, and generative retrieval model optimization, and successfully productionized a three-stage training framework that outperformed the primary online recall pipeline in image search and interest recommendation scenarios.",
+  exp2Company: "Tencent Technology (Shanghai) Co., Ltd.",
+  exp2Date: "Apr 2018 - Oct 2022",
+  exp2Role: "Product Recognition & Computer Vision Engineer",
+  exp2Summary:
+    "Worked on face recognition, face-quality assessment, product retrieval, and open-world detection and recognition. Built core capabilities in product base construction, image-text retrieval, and visual quality assessment for Xiaoe Pinpin, laying the foundation for later work in e-commerce search and multimodal systems.",
+  educationTitle: "Education",
+  edu1School: "Shanghai Jiao Tong University",
+  edu1Degree: "M.S., School of Electronic Information and Electrical Engineering / School of Automation and Perception",
+  edu1Desc: "Top 15% in major; National Scholarship; Merit Student; Outstanding Graduate of Shanghai.",
+  edu2School: "Xi'an Jiaotong University",
+  edu2Degree: "B.S., School of Mechanical Engineering, Measurement and Control Technology and Instrumentation",
+  edu2Desc: "Top 10% in major; National Scholarship; National Encouragement Scholarship; Outstanding Student Cadre.",
+  honorsTitle: "Honors",
+  honor1: "Champion, CVPR 2021 Image Matching Workshop",
+  honor2: "Top 1%, CVPR 2022 Image Matching Workshop",
+  honor3: "Top 1%, CVPR 2022 AliProduct Multimodal Product Retrieval",
+  honor4: "Third Place, NeurIPS 2021 Image Similarity Challenge",
+  honor5Label: "Open-source contribution: ",
+  honor5Suffix: "1.5k+ GitHub stars",
+  resumeTitle: "Resume",
+  downloadResume: "Download Resume",
+  publicationEmpty: "Please add publication entries in publications-data.js.",
+  toggle: "中文",
+  lang: "en"
+}
 };
 
 const toggle = document.querySelector("#language-toggle");
