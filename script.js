@@ -7,13 +7,14 @@ const translations = {
     publicationsToolbar: "论文列表可直接在 publications-data.js 中维护。",
     navResumeHome: "个人简历",
     navPublications: "发表论文",
+    navPapersDaily: "ai-paper-daily",
     name: "陈星宇",
-    role: "抖音内容理解 / TikTok 电商搜索与生成式搜推",
+    role: "知识图谱/ 内容理解/ 生成式搜推/ Agentic 推荐",
     profileSummary:
-      "聚焦多模态大模型、Post-Training、强化学习和生成式搜推，当前聚焦LLM/VLM大模型、Post-Training、强化学习和生成式搜推。负责电商直播和短视频内容理解，以及电商搜索Query理解、和生成式召回相关工作。在字节重点负责抖音内容理解，以及 TikTok 电商搜索、直播理解和生成式召回相关工作。",
-    metaCompany: "现任：ByteDance",
-    metaFocus: "方向：电商搜索 / 内容理解 / 生成式推荐",
-    metaLocation: "领域：短视频、直播与电商搜索交易场景",
+      "技术聚焦多模态大模型、Post-Training、强化学习、生成式搜推和Agentic推荐。业务上负责面向搜推的电商直播和短视频内容理解，Query理解、和生成式推荐相关工作。",
+    metaCompany: "现任：TikTok-电商-知识图谱",
+    metaFocus: "方向： 知识图谱 / 内容理解 / 生成式搜推",
+    metaLocation: "领域：短视频、直播与电商搜推交易场景",
     contactTitle: "联系与主页",
     emailLabel: "邮箱",
     openResume: "查看 PDF 简历",
@@ -28,7 +29,7 @@ const translations = {
     experienceTitle: "工作经历",
     exp1Company: "字节跳动",
     exp1Date: "2022.11 - 至今",
-    exp1Role: "内容理解 / 电商搜索 / 生成式搜推负责人",
+    exp1Role: "知识图谱-内容理解POC/ 知识图谱-电商搜索POC",
     exp1Sub1Title: "抖音",
     exp1Sub2Title: "TikTok",
     exp1DouyinBullet1:
@@ -36,7 +37,7 @@ const translations = {
     exp1DouyinBullet2:
       "围绕优质内容与高潜作者识别建设供给评估能力，持续增强内容分发、供给优化与交易转化之间的协同效率。",
     exp1TiktokBullet1:
-      "作为搜索供给、增长与承接模块的横向 POC，建设 Query 理解能力，通过 BERT + Multi-Agent RAG 近线部署识别品牌、品类、属性等结构化信息，平均准召回 90% / 85%，推动 OPMS +5%，相关性从 93.2% 提升到 97%。",
+      "作为知识图谱面向搜索供给、增长与承接模块的横向 POC，建设 Query 理解能力，通过 BERT + Multi-Agent RAG 近线部署识别品牌、品类、属性等结构化信息，平均准召回 90% / 85%，推动 OPMS +5%，相关性从 93.2% 提升到 97%。",
     exp1TiktokBullet2:
       "从 0 到 1 搭建直播内容理解，包括直播商品识别、类目识别、画风理解与高光切片生成，通过引入 LLaVA、VideoChat 等多模态大模型将主播 pin 商品覆盖率从 67% 提升到 95%，算法准确率达到 85%，最终带来直播 GMV +2%，badcase 减少 15%。",
     exp1TiktokBullet3:
@@ -74,13 +75,14 @@ const translations = {
   publicationsToolbar: "The publication list can be edited directly in publications-data.js.",
   navResumeHome: "Resume",
   navPublications: "Publications",
+  navPapersDaily: "ai-paper-daily",
   name: "Xingyu Chen",
-  role: "Douyin Content Understanding / TikTok E-commerce Search & Generative Recommendation",
+  role: "Knowledge Graph / Content Understanding / Generative Search & Recommendation / Agentic Recommendation",
   profileSummary:
-    "Specialized in multimodal foundation models, post-training, reinforcement learning, and generative search and recommendation. Currently leading key initiatives in Douyin content understanding, as well as TikTok e-commerce search, livestream understanding, and generative retrieval at ByteDance.",
-  metaCompany: "Current: ByteDance",
-  metaFocus: "Focus: E-commerce Search / Content Understanding / Generative Recommendation",
-  metaLocation: "Domain: Short Video, Livestream, and E-commerce",
+    "Technically focused on multimodal foundation models, post-training, reinforcement learning, generative search & recommendation, and agentic recommendation. On the business side, I lead e-commerce livestream and short-video content understanding, query understanding, and generative recommendation for search and recommendation scenarios.",
+  metaCompany: "Current: TikTok · E-commerce · Knowledge Graph",
+  metaFocus: "Focus: Knowledge Graph / Content Understanding / Generative Search & Recommendation",
+  metaLocation: "Domain: Short Video, Livestream, and E-commerce Search & Recommendation",
   contactTitle: "Contact",
   emailLabel: "Email",
   openResume: "Open PDF Resume",
@@ -95,7 +97,7 @@ const translations = {
   experienceTitle: "Experience",
   exp1Company: "ByteDance",
   exp1Date: "Nov 2022 - Present",
-  exp1Role: "Lead, Content Understanding / E-commerce Search / Generative Recommendation",
+  exp1Role: "Knowledge Graph POC for Content Understanding / Knowledge Graph POC for E-commerce Search",
   exp1Sub1Title: "Douyin",
   exp1Sub2Title: "TikTok",
   exp1DouyinBullet1:
@@ -103,7 +105,7 @@ const translations = {
   exp1DouyinBullet2:
     "Built supply evaluation capabilities centered on high-quality content and high-potential creator identification, improving collaboration across content distribution, supply optimization, and transaction conversion.",
   exp1TiktokBullet1:
-    "Served as the cross-functional POC for search supply, growth, and fulfillment. Built query understanding capabilities with BERT and nearline Multi-Agent RAG to extract structured signals such as brand, category, and attribute information, achieving average precision/recall of 90%/85%, driving OPMS +5%, and improving relevance from 93.2% to 97%.",
+    "Served as the cross-functional knowledge-graph POC for search supply, growth, and fulfillment. Built query understanding capabilities with BERT and nearline Multi-Agent RAG to extract structured signals such as brand, category, and attribute information, achieving average precision/recall of 90%/85%, driving OPMS +5%, and improving relevance from 93.2% to 97%.",
   exp1TiktokBullet2:
     "Built livestream understanding from 0 to 1, covering product recognition, category recognition, style understanding, and highlight clip generation. By introducing multimodal foundation models such as LLaVA and VideoChat, improved pinned-product coverage from 67% to 95%, achieved 85% model accuracy, increased livestream GMV by 2%, and reduced bad cases by 15%.",
   exp1TiktokBullet3:
