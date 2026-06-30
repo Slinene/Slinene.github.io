@@ -202,24 +202,54 @@ h3 {
   font-weight: 700;
 }
 
-.contact-list {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  display: grid;
-  gap: 12px;
+.contact-icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 4px;
 }
 
-.contact-list li {
-  display: grid;
-  gap: 4px;
-}
-
-.contact-label {
-  font-size: 0.86rem;
+.contact-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  background: var(--surface);
+  border: 1px solid var(--line);
   color: var(--muted);
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
+  transition: transform 0.18s ease, color 0.18s ease,
+    border-color 0.18s ease, box-shadow 0.18s ease, background 0.18s ease;
+}
+
+.contact-icon svg {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
+
+.contact-icon:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+  border-color: transparent;
+  color: #ffffff;
+}
+
+.contact-icon[data-brand="email"]:hover {
+  background: var(--accent);
+}
+
+.contact-icon[data-brand="github"]:hover {
+  background: #24292f;
+}
+
+.contact-icon[data-brand="scholar"]:hover {
+  background: #4285f4;
+}
+
+.contact-icon[data-brand="linkedin"]:hover {
+  background: #0a66c2;
 }
 
 .profile-note-title {
