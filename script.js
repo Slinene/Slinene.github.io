@@ -19,19 +19,19 @@ const translations = {
     emailLabel: "邮箱",
     openResume: "查看 PDF 简历",
     jumpExperience: "工作经历",
+    newsTitle: "最新动态",
+    newsBadge: "New!",
+    news1Date: "2025.03",
+    news1: "我从上海搬到了西雅图，开始在北美 TikTok 电商工作啦。",
     aboutTitle: "关于我",
     aboutP1:
-      "长期从事搜索推荐、内容理解和多模态学习，在短视频、电商与支付场景积累了从研究建模、系统建设到大规模落地的完整经验。",
-    aboutP2:
-      "在字节的工作主要分成两条主线：一条是抖音侧的短视频内容理解，重点解决视频电商意图识别和优质供给挖掘；另一条是 TikTok 侧的电商搜索与直播理解，围绕 Query 理解、直播内容理解、商品 SEO 和生成式召回持续推进业务落地。",
-    aboutP3:
-      "在加入字节之前，曾在腾讯从事商品识别、人脸质量评估和开放场景检测识别相关工作，形成了较完整的视觉算法与业务落地方法论。",
+      "目前在北美 TikTok 电商，负责多模态内容理解和大模型在电商搜推技术探索，先后负责过短视频 / 直播内容理解，Query 理解等能力建设、目前主要聚焦在通过生成式推荐和 Agentic RL 等技术提升现有搜推系统的天花板。更早在腾讯做过商品识别、人脸质量评估和开放场景检测识别。工作之外，喜欢健身和摄影，辅修了日语双学位。",
     experienceTitle: "工作经历",
     exp1Company: "字节跳动",
     exp1Date: "2022.11 - 至今",
-    exp1Role: "知识图谱-内容理解POC/ 知识图谱-电商搜索POC",
-    exp1Sub1Title: "抖音",
-    exp1Sub2Title: "TikTok",
+    exp1Location: "📍 上海（2022–2024）→ 西雅图（2025 至今）",
+    exp1Sub1Title: "抖音-内容理解POC",
+    exp1Sub2Title: "TikTok-电商搜索POC",
     exp1DouyinBullet1:
       "负责抖音短视频内容理解方向，通过 VideoCLIP、自研 VersatileTowers 等多模态算法建模视频电商意图识别，为非挂车视频挖掘增量流量，并带来抖音电商大盘人均订单提升 6%。",
     exp1DouyinBullet2:
@@ -41,12 +41,13 @@ const translations = {
     exp1TiktokBullet2:
       "从 0 到 1 搭建直播内容理解，包括直播商品识别、类目识别、画风理解与高光切片生成，通过引入 LLaVA、VideoChat 等多模态大模型将主播 pin 商品覆盖率从 67% 提升到 95%，算法准确率达到 85%，最终带来直播 GMV +2%，badcase 减少 15%。",
     exp1TiktokBullet3:
-      "负责生成式搜推能力建设，涵盖 Embedding、Semantic ID 与生成式推荐。基于多模态embedding齐、Semantic ID 构建及生成式召回模型优化，完成三阶段训练范式落地，在图搜、兴趣推荐等场景效果超过线上主召回链路。",
+      "负责生成式推荐和 Agentic Rec 能力建设，涵盖 Embedding 对齐、Semantic ID 与生成式推荐模型训练等模块，通过 AutoResearch 和 Multi-Agent 提升迭代效率。相关算法在图搜、商城推荐等场景效果超过线上主召回链路。",
     exp2Company: "腾讯科技（上海）有限公司",
     exp2Date: "2018.04 - 2022.10",
+    exp2Location: "📍 上海",
     exp2Role: "商品识别与视觉算法相关工作",
     exp2Summary:
-      "主要从事人脸识别、人脸质量评估、商品检索、与开放场景检测识别等方向，为小鹅拼拼完成商品底库、图文检索与视觉质量评估能力建设，为后续在电商搜索与多模态系统方向的工作奠定了基础。",
+      "主要从事人脸识别、人脸质量评估、商品检索、与开放场景检测识别等方向，相关技术在微信支付、腾讯云等场景应用，日均调用规模上亿次，带来千万级收入。",
     educationTitle: "教育经历",
     edu1School: "上海交通大学",
     edu1Degree: "硕士，电子信息与电气工程学院 / 自动化与感知学院",
@@ -87,19 +88,19 @@ const translations = {
   emailLabel: "Email",
   openResume: "Open PDF Resume",
   jumpExperience: "Experience",
+  newsTitle: "News",
+  newsBadge: "New!",
+  news1Date: "Mar 2025",
+  news1: "I moved from Shanghai to Seattle and started working at TikTok E-commerce in North America.",
   aboutTitle: "About Me",
   aboutP1:
-    "Experienced in search and recommendation, content understanding, and multimodal learning, with end-to-end expertise spanning research, modeling, system development, and large-scale production deployment across short-video, e-commerce, and payment scenarios.",
-  aboutP2:
-    "At ByteDance, my work focuses on two major areas. On Douyin, I work on short-video content understanding, with an emphasis on commerce-intent recognition and high-quality supply mining. On TikTok, I focus on e-commerce search and livestream understanding, including query understanding, livestream content understanding, product SEO, and generative retrieval.",
-  aboutP3:
-    "Prior to ByteDance, I worked at Tencent on product recognition, face-quality assessment, and open-world detection and recognition, which helped me build a strong foundation in computer vision algorithms and large-scale productization.",
+    "Currently at TikTok E-commerce in North America, working on multimodal content understanding and exploring how large language models can advance e-commerce search & recommendation. I've led capability building across short-video / livestream content understanding and query understanding, and now focus mainly on pushing the ceiling of existing search & recommendation systems through generative recommendation and Agentic RL. Earlier, at Tencent, I worked on product recognition, face-quality assessment, and open-world detection and recognition. Outside of work, I enjoy fitness and photography, and minored in Japanese as a double degree.",
   experienceTitle: "Experience",
   exp1Company: "ByteDance",
   exp1Date: "Nov 2022 - Present",
-  exp1Role: "Knowledge Graph POC for Content Understanding / Knowledge Graph POC for E-commerce Search",
-  exp1Sub1Title: "Douyin",
-  exp1Sub2Title: "TikTok",
+  exp1Location: "📍 Shanghai (2022–2024) → Seattle (2025–Present)",
+  exp1Sub1Title: "Douyin – Content Understanding POC",
+  exp1Sub2Title: "TikTok – E-commerce Search POC",
   exp1DouyinBullet1:
     "Led short-video content understanding for Douyin. Built multimodal models for commerce-intent recognition using VideoCLIP and in-house VersatileTowers, unlocking incremental traffic from non-cart videos and increasing orders per user in Douyin E-commerce by 6%.",
   exp1DouyinBullet2:
@@ -109,12 +110,13 @@ const translations = {
   exp1TiktokBullet2:
     "Built livestream understanding from 0 to 1, covering product recognition, category recognition, style understanding, and highlight clip generation. By introducing multimodal foundation models such as LLaVA and VideoChat, improved pinned-product coverage from 67% to 95%, achieved 85% model accuracy, increased livestream GMV by 2%, and reduced bad cases by 15%.",
   exp1TiktokBullet3:
-    "Led the development of generative search and recommendation capabilities across Embedding, Semantic ID, and generative recommendation. Improved multimodal alignment embeddings through user posterior signals, Semantic ID construction, and generative retrieval model optimization, and successfully productionized a three-stage training framework that outperformed the primary online recall pipeline in image search and interest recommendation scenarios.",
+    "Led the development of generative recommendation and Agentic Rec capabilities, covering embedding alignment, Semantic ID, and generative recommendation model training. Improved iteration efficiency through AutoResearch and Multi-Agent approaches. The resulting algorithms outperformed the primary online recall pipeline in scenarios such as image search and marketplace recommendation.",
   exp2Company: "Tencent Technology (Shanghai) Co., Ltd.",
   exp2Date: "Apr 2018 - Oct 2022",
+  exp2Location: "📍 Shanghai",
   exp2Role: "Product Recognition & Computer Vision Engineer",
   exp2Summary:
-    "Worked on face recognition, face-quality assessment, product retrieval, and open-world detection and recognition. Built core capabilities in product base construction, image-text retrieval, and visual quality assessment for Xiaoe Pinpin, laying the foundation for later work in e-commerce search and multimodal systems.",
+    "Worked on face recognition, face-quality assessment, product retrieval, and open-world detection and recognition. These technologies were deployed in scenarios such as WeChat Pay and Tencent Cloud, serving hundreds of millions of calls per day and generating tens of millions in revenue.",
   educationTitle: "Education",
   edu1School: "Shanghai Jiao Tong University",
   edu1Degree: "M.S., School of Electronic Information and Electrical Engineering / School of Automation and Perception",

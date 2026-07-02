@@ -123,16 +123,23 @@
       </aside>
 
       <section class="content">
+        <section id="news" class="section news-section">
+          <h2 class="news-heading">
+            <span data-i18n="newsTitle">最新动态</span>
+            <span class="news-badge" data-i18n="newsBadge">New!</span>
+          </h2>
+          <ul class="news-list">
+            <li>
+              <span class="news-date" data-i18n="news1Date">2025.03</span>
+              <span class="news-text" data-i18n="news1">我从上海搬到了西雅图，开始在北美 TikTok 电商工作啦。</span>
+            </li>
+          </ul>
+        </section>
+
         <section id="about" class="section">
           <h2 data-i18n="aboutTitle">About Me</h2>
           <p data-i18n="aboutP1">
-            长期从事搜索推荐、内容理解和多模态学习。在电商短视频、直播与搜索场景积累了从研究建模、系统建设到大规模落地的完整经验。
-          </p>
-          <p data-i18n="aboutP2">
-            在字节的工作主要分成两条主线：一条是抖音侧的短视频内容理解，重点解决视频电商意图识别和优质供给挖掘；另一条是 TikTok 侧的电商搜索与内容理解，围绕 Query 理解、短视频&直播内容理解、商品 SEO 和生成式召回持续推进业务落地。
-          </p>
-          <p data-i18n="aboutP3">
-            在加入字节之前，曾在腾讯从事人脸识别、商品检索和openset检测识别相关工作，形成了较完整的视觉算法与业务落地方法论。
+            目前在北美 TikTok 电商，负责多模态内容理解和大模型在电商搜推技术探索，先后负责过短视频 / 直播内容理解，Query 理解等能力建设、目前主要聚焦在通过生成式推荐和 Agentic RL 等技术提升现有搜推系统的天花板。更早在腾讯做过商品识别、人脸质量评估和开放场景检测识别。工作之外，喜欢健身和摄影，辅修了日语双学位。
           </p>
         </section>
 
@@ -144,10 +151,10 @@
               <h3 data-i18n="exp1Company">字节跳动</h3>
               <span data-i18n="exp1Date">2022.11 - 至今</span>
             </div>
-            <p class="entry-role" data-i18n="exp1Role">知识图谱-内容理解POC/ 知识图谱-电商搜索POC</p>
+            <p class="entry-location" data-i18n="exp1Location">📍 上海（2022–2024）→ 西雅图（2025 至今）</p>
 
             <div class="subentry">
-              <h4 class="subentry-title" data-i18n="exp1Sub1Title">抖音</h4>
+              <h4 class="subentry-title" data-i18n="exp1Sub1Title">抖音-内容理解POC</h4>
               <ul class="bullet-list">
                 <li data-i18n="exp1DouyinBullet1">
                   负责抖音短视频内容理解方向，通过 VideoCLIP、自研 VersatileTowers 等多模态算法建模视频电商意图识别，为非挂车视频挖掘增量流量，并带来抖音电商大盘人均订单提升 6%。
@@ -159,7 +166,7 @@
             </div>
 
             <div class="subentry">
-              <h4 class="subentry-title" data-i18n="exp1Sub2Title">TikTok</h4>
+              <h4 class="subentry-title" data-i18n="exp1Sub2Title">TikTok-电商搜索POC</h4>
               <ul class="bullet-list">
                 <li data-i18n="exp1TiktokBullet1">
                   作为知识图谱面向搜索供给、增长与承接模块的横向 POC，建设 Query 理解能力，通过 BERT + Multi-Agent RAG 近线部署识别品牌、品类、属性等结构化信息，平均准召回 90% / 85%，推动 OPMS +5%，相关性从 93.2% 提升到 97%。
@@ -168,7 +175,7 @@
                   从 0 到 1 搭建直播内容理解，包括直播商品识别、类目识别、画风理解与高光切片生成，通过引入 LLaVA、VideoChat 等多模态大模型将主播 pin 商品覆盖率从 67% 提升到 95%，算法准确率达到 85%，最终带来直播 GMV +2%，badcase 减少 15%。
                 </li>
                 <li data-i18n="exp1TiktokBullet3">
-                  负责生成式搜推能力建设，涵盖 Embedding、Semantic ID 与生成式推荐。基于多模态embedding齐、Semantic ID 构建及生成式召回模型优化，完成三阶段训练范式落地，在图搜、兴趣推荐等场景效果超过线上主召回链路。
+                  负责生成式推荐和 Agentic Rec 能力建设，涵盖 Embedding 对齐、Semantic ID 与生成式推荐模型训练等模块，通过 AutoResearch 和 Multi-Agent 提升迭代效率。相关算法在图搜、商城推荐等场景效果超过线上主召回链路。
                 </li>
               </ul>
             </div>
@@ -179,9 +186,10 @@
               <h3 data-i18n="exp2Company">腾讯科技（上海）有限公司</h3>
               <span data-i18n="exp2Date">2018.04 - 2022.10</span>
             </div>
+            <p class="entry-location" data-i18n="exp2Location">📍 上海</p>
             <p class="entry-role" data-i18n="exp2Role">人脸识别与视觉算法相关工作</p>
             <p class="entry-summary" data-i18n="exp2Summary">
-              主要从事人脸识别、人脸质量评估、商品检索、与开放场景检测识别等方向，为小鹅拼拼完成商品底库、图文检索与视觉质量评估能力建设，为后续在电商搜索与多模态系统方向的工作奠定了基础。
+              主要从事人脸识别、人脸质量评估、商品检索、与开放场景检测识别等方向，相关技术在微信支付、腾讯云等场景应用，日均调用规模上亿次，带来千万级收入。
             </p>
           </article>
         </section>
