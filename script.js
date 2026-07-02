@@ -141,7 +141,7 @@ const translations = {
 
 const toggle = document.querySelector("#language-toggle");
 const targets = document.querySelectorAll("[data-i18n]");
-let currentLanguage = "zh";
+let currentLanguage = "en";
 
 function applyLanguage(language) {
   const dict = translations[language];
